@@ -50,3 +50,5 @@ b. B = A[i: j]라고 하면 A[i], …, A[j-1]까지가 복사되어 B가
 >>> A.append("Python") # append 후 96 바이트로 재 할당
 >>> sys.getsizeof(A)
 96
+
+2.
