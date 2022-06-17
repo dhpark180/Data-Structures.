@@ -24,3 +24,5 @@ a. pop()은 맨 오른쪽 값을 지움
 
 4. A.remove(value): value를 찾아 제거 (value 오른쪽의 값들은
 왼쪽으로 한 칸씩 이동해 빈 공간을 메꿈)
+
+5. A.index(value): value 값이 처음으로 등장하는 index 리턴
