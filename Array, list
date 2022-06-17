@@ -21,3 +21,6 @@ a. pop()은 맨 오른쪽 값을 지움
 
 3. A.insert(i, value): A[i] = value 연산 (단, A[i], A[i+1], …
 값들은 오른쪽으로 한 칸씩 이동해 A[i]를 비운 후, value 값 저장)
+
+4. A.remove(value): value를 찾아 제거 (value 오른쪽의 값들은
+왼쪽으로 한 칸씩 이동해 빈 공간을 메꿈)
