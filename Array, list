@@ -28,3 +28,6 @@ a. pop()은 맨 오른쪽 값을 지움
 5. A.index(value): value 값이 처음으로 등장하는 index 리턴
 
 6. A.count(value): value 값이 몇 번 등장하는 지 횟수를 세어 리턴
+
+7. A[i:j] : A[i], …, A[j-1]까지를 복사해 새로운 리스트 생성하여
+리턴
