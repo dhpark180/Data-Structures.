@@ -18,3 +18,6 @@ Python 언어에서의 list A
 2. A.pop(i): A[i] 값을 지운 후 리턴 (i번째 오른쪽 값들은 왼쪽으로 한
 칸씩 당겨져, cell의 수가 하나 감소)
 a. pop()은 맨 오른쪽 값을 지움
+
+3. A.insert(i, value): A[i] = value 연산 (단, A[i], A[i+1], …
+값들은 오른쪽으로 한 칸씩 이동해 A[i]를 비운 후, value 값 저장)
