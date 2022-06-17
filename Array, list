@@ -73,3 +73,14 @@ a. 이를 위한 내부 변수가 필요하므로 빈 리스트 A는 0바이트�
 5. 추가 메모리 이외에 연산 시간에도 영향을 준다. 특정 append 연산에서
 메모리를 늘려야 한다면 이전 리스트의 값을 새로운 리스트로 일일이
 이동해야 한다 
+
+def append(A, value):
+1. if A.capacity == A.n: # resize 필요!
+a. allocate a new list B with larger memory
+b. update B.capacity and B.n
+c. for i in range(A.n):
+B[i] = A[i]
+d. dispose A
+e. A = B # B 이름을 A로 바꿈
+2. A[n] = value
+3. A.n += 1
