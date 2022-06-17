@@ -84,3 +84,5 @@ def append(A, value):
     e. A = B # B 이름을 A로 바꿈
   2. A[n] = value
   3. A.n += 1
+  
+  6. 단계 1.c에서 A에 저장된 값의 개수만큼 시간이 걸림: O(n)
